@@ -24,10 +24,7 @@ Visual components and Python
 
 
 ## Program
-```py
-Developed by : Priyanka.A
-Register number : 212222230113
-
+```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
 ser_time2=float(input("Enter the mean  inter service time of Lathe Machine 2 (in secs) :  "))
@@ -67,7 +64,17 @@ else:
 print("----------------------------------------------------------------------")
 ```
 ## Output
-![280449150-ddaddd8f-f0e0-4573-8592-55278889542b](https://github.com/PriyankaAnnadurai/Open-Jacson-Networks/assets/118351569/2a38a741-ddc1-4d6c-b6b8-5a2289769ac8)
-
+```
+Enter the mean inter arrival time of objects from Feeder (in secs): 234
+Enter the mean  inter service time of Lathe Machine 1 (in secs) :  786
+Enter the mean  inter service time of Lathe Machine 2 (in secs) :  908
+Enter the mean  inter service time of Lathe Machine 3 (in secs) :  567
+Enter the Additional time taken for the Robot (in secs) :  234
+-----------------------------------------------------------------------
+Series Queues with infinite capacity- Open Jackson Network
+-----------------------------------------------------------------------
+Warning! Objects Over flow will happen in the conveyor
+----------------------------------------------------------------------
+```
 ## Result
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
